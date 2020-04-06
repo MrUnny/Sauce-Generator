@@ -1,16 +1,17 @@
 # Sauce-Generator
 It's a basic Python script that generates a specified amount of sauce and outputs it to the console and a .txt file
 
-#How to run
-Windows:
-1. Install Python 3
-2. Navigate to the .py file in Command Prompt
-3. Type "python main.py" to run it
+# How to run:
 
-Linux:
-1. Open Terminal
-2. Navigate to the .py file
-3. Type "python3 main.py" to run it
+## Windows:
+  1. Install Python 3
+  2. Navigate to the .py file in Command Prompt
+  3. Type "python main.py" to run it
 
-Mac:
-I don't know
+## Linux:
+  1. Open Terminal
+  2. Navigate to the .py file
+  3. Type "python3 main.py" to run it
+
+## Mac:
+  I don't know

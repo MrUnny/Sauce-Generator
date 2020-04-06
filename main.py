@@ -1,5 +1,4 @@
 import random
-import os
 import webbrowser
 
 def sauceAmount(amount):

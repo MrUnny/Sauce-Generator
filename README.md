@@ -11,7 +11,7 @@ It's a basic Python script that generates a specified amount of sauce and output
 ## Linux:
   1. Open Terminal
   2. Navigate to the .py file
-  3. Type "python main.py" to run it
+  3. Type "python3 main.py" to run it (if you don't type python3 the program will break after a while)
 
 ## Mac:
   I don't know

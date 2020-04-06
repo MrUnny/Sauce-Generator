@@ -41,6 +41,6 @@ sauceAmount = sauceAmount("How much sauce do you want? ")
 if sauceAmount > 200000:
 	print("Whoa, that's too much sauce, you'll get repeats and that's no good")
 elif sauceAmount <= 0:
-	print("Exiting...")
+	print("Number that is <= 0. Exiting...")
 else:
 	generateSauce()

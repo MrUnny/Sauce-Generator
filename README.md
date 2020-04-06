@@ -6,7 +6,7 @@ It's a basic Python script that generates a specified amount of sauce and output
 ## Windows:
   1. Install Python 3
   2. Navigate to the .py file in Command Prompt
-  3. Type "python main.py" to run it
+  3. Type "python main.py" to run it (if Python 2.x is installed, type python3)
 
 ## Linux:
   1. Open Terminal

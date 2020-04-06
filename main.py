@@ -23,7 +23,7 @@ def generateSauce():
 
 #MAIN PROGRAM
 sauceAmount = sauceAmount("How much sauce do you want? ")
-if sauceAmount > 199999:
+if sauceAmount > 200000:
 	print("Whoa, that's too much sauce, you'll get repeats and that's no good")
 else:
 	generateSauce()

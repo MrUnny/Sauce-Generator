@@ -1,4 +1,5 @@
 import random
+import os
 
 def sauceAmount(amount):
 	while True:
@@ -16,7 +17,7 @@ def generateSauce():
 	for i in range(sauceAmount):
 		sauce = random.randint(100000, 299999) #There is some sauce that are >299999 but they're uncommon
 		print(sauce)
-		output.write(str(sauce) + "\n") #Writes the generated sauce to the .txt file
+		output.write(str(sauce) + "\n") #Writes the generated sauce to seperate lines in a .txt file
 	print("WARNING: Keep in mind this is all random, some of the sauce may not work")
 	print("There should be a .txt file with the sauce generated where this .py file is")
 

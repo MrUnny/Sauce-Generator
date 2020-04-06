@@ -23,7 +23,7 @@ def generateSauce():
 	print("There should be a .txt file with the sauce generated where this .py file is")
 	while True:
 		while True:
-			answer = raw_input("Open random sauce in your default web browser? WARNING: It will not open in a private/incognito window (y/n): ")
+			answer = input("Open random sauce in your default web browser? WARNING: It will not open in a private/incognito window (y/n): ")
 			if answer in ("y", "n"):
 				break
 			print("Please type y or n (case sensitive)")

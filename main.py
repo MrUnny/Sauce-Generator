@@ -32,7 +32,7 @@ def generateSauce():
 			randomOpen = random.choice(outputRead)
 			print("Opening " + str(randomOpen) + " in your default web browser...")
 			webbrowser.open("https://nhentai.net/g/" + str(randomOpen), new=2)
-			break
+			continue
 		else:
 			break
 

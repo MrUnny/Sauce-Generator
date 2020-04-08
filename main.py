@@ -14,9 +14,9 @@ def sauceAmount(amount):
 
 def generateSauce():
 	output = open("sauce.txt", "a+") #Creates a file called sauce.txt next to the .py file
+	print("Writing to sauce.txt...")
 	for i in range(sauceAmount):
 		sauce = random.randint(100000, 299999) #There is some sauce that are >299999 but they're uncommon
-		print(sauce)
 		output.write(str(sauce) + "\n") #Writes the generated sauce to seperate lines in a .txt file
 	output.close()
 	print("WARNING: Keep in mind this is all random, some of the sauce may not work")

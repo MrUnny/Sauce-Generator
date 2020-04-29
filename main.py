@@ -1,7 +1,9 @@
-# Created by Mr. Funny
-# Do what you want with this code
-# Feel like contacting me for whatever reason?
-# yom8travel@gmail.com is my email address
+"""
+Created by Mr. Funny
+Do what you want with this code
+Feel like contacting me for whatever reason?
+yom8travel@gmail.com is my email address
+"""
 
 import random
 import webbrowser
